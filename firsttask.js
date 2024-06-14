@@ -10,6 +10,6 @@ http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	
 	// Send the response body as "Hello World!!!!!" 
-	res.end('Hello World Nodejs!!!!!!!!!');
+	res.end('Hello World Nodejs!!!!!!!!!!');
 
 }).listen(3030);
